@@ -1,0 +1,15 @@
+.cus-btn-select {
+  border: 1px solid #e4e4e7;
+  height: 40px;
+  padding: 8px 12px;
+  border-radius: calc(var(--radius) - 2px);
+  &:hover {
+    .cus-btn-select-close {
+      opacity: 1;
+    }
+  }
+  &-close {
+    opacity: 0;
+    color: #71717a;
+  }
+}

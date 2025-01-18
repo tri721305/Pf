@@ -1,0 +1,12 @@
+// .pfsense-body {
+//   width: calc(100vw - 16rem);
+//   &.isCollapsed {
+//     width: calc(100vw - 3.5rem);
+//   }
+// }
+
+@media screen and (max-width: 1580px) {
+  .subcard {
+    flex-direction: column;
+  }
+}

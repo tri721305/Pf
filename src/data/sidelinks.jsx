@@ -1,0 +1,103 @@
+import {
+  Aperture,
+  Boxes,
+  Cable,
+  Camera,
+  HdmiPort,
+  LandPlot,
+  LayoutDashboard,
+  Package,
+  PencilRuler,
+  SlidersHorizontalIcon,
+  SquareStack,
+  Store,
+  User,
+  UserPen,
+} from "lucide-react";
+
+export const sidelinks = [
+  {
+    title: "Dashboard",
+    label: "",
+    href: "/Dashboard",
+    icon: <LayoutDashboard />,
+  },
+  {
+    title: "Port Monitor",
+    label: "",
+    href: "/portmonitor",
+    icon: <HdmiPort />,
+  },
+  {
+    title: "Store Manager",
+    href: "/storemanager",
+    icon: <Store />,
+    label: "",
+  },
+  {
+    title: "Slide Manager",
+    href: "/slide",
+    icon: <SlidersHorizontalIcon />,
+    label: "",
+  },
+  {
+    title: "Camera Permission",
+    href: "/camera",
+    icon: <Camera />,
+    label: "",
+  },
+  {
+    title: "Package Manager",
+    href: "/package",
+    icon: <Package />,
+    label: "",
+  },
+  {
+    title: "Port Manager",
+    href: "/portmanager",
+    icon: <Cable />,
+    label: "",
+  },
+  {
+    title: "Area Manager",
+    href: "/areamanager",
+    icon: <LandPlot />,
+    label: "",
+  },
+  {
+    title: "Group Manager",
+    href: "/groupmanager",
+    icon: <Boxes />,
+    label: "",
+  },
+  {
+    title: "Role Manager",
+    href: "/rolemanager",
+    icon: <PencilRuler />,
+    label: "",
+  },
+  {
+    title: "User Manager",
+    href: "/usermanager",
+    icon: <User />,
+    label: "",
+  },
+  {
+    title: "UnixService Manager",
+    href: "/unixservicemanager",
+    icon: <Aperture />,
+    label: "",
+  },
+  {
+    title: "Batch Command",
+    href: "/batchcommand",
+    icon: <SquareStack />,
+    label: "",
+  },
+  {
+    title: "Report",
+    href: "/report",
+    icon: <UserPen />,
+    label: "",
+  },
+];

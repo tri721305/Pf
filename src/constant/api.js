@@ -12,8 +12,6 @@ if (import.meta.env.VITE_APP_STAGE === "production") {
 
 export const API_GET_TOKEN = AUTH_BASE_URL + "/oauth/token";
 export const API_GET_USER = AUTH_BASE_URL + "/api/auth";
-export const BASIC_KEY_SSO = "bXdnLXdlYi1iaS1hcHA6TExMT0lwYWVxZXE=";
-export const BASIC_KEY = "bXdnLXBmc2Vuc2UtYXBwOlBvcHd3d3d0OWgy";
 
 // ============================== DASHBOARD ==================================
 
